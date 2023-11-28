@@ -1,0 +1,37 @@
+html {
+  background: #333;
+  background-color: #333;
+  font: 1.3rem Inconsolata, monospace;
+}
+
+body {
+  color: #f0e68c;
+}
+
+.hidden {
+  display: none;
+}
+
+.table {
+  text-align: center;
+  border-width: 8px;
+  border-radius: 10px;
+  border-color: #f0e68c;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 20.5vh;
+}
+
+/* Hide checkboxes */
+.table input[type="checkbox"] {
+  display: none;
+}
+
+/* Apply blur filter on image when checkbox is checked */
+.table input[type="checkbox"]:checked+label>img {
+  filter: blur(5px);
+}
