@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mais c'est qui ce bouffon ?</title>
+    <meta name="version mobile" content="version mobile du qui-est-ce">
+    <link rel="stylesheet" href="styles/styleplato.css">
+</head>
+
+<body>
+    <table class="table" id="imageTable">
+        <tr>
+            <td><input type="checkbox" id="a" /><label for="a"></label></td>
+            <td><input type="checkbox" id="b" /><label for="b"></label></td>
+            <td><input type="checkbox" id="c" /><label for="c"></label></td>
+            <td><input type="checkbox" id="d" /><label for="d"></label></td>
+            <td><input type="checkbox" id="e" /><label for="e"></label></td>
+            <td><input type="checkbox" id="f" /><label for="f"></label></td>
+            <td><input type="checkbox" id="g" /><label for="g"></label></td>
+            <td><input type="checkbox" id="h" /><label for="h"></label></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" id="i" /><label for="i"></label></td>
+            <td><input type="checkbox" id="j" /><label for="j"></label></td>
+            <td><input type="checkbox" id="k" /><label for="k"></label></td>
+            <td><input type="checkbox" id="l" /><label for="l"></label></td>
+            <td><input type="checkbox" id="m" /><label for="m"></label></td>
+            <td><input type="checkbox" id="n" /><label for="n"></label></td>
+            <td><input type="checkbox" id="o" /><label for="o"></label></td>
+            <td><input type="checkbox" id="p" /><label for="p"></label></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" id="q" /><label for="q"></label></td>
+            <td><input type="checkbox" id="r" /><label for="r"></label></td>
+            <td><input type="checkbox" id="s" /><label for="s"></label></td>
+            <td><input type="checkbox" id="t" /><label for="t"></label></td>
+            <td><input type="checkbox" id="u" /><label for="u"></label></td>
+            <td><input type="checkbox" id="v" /><label for="v"></label></td>
+            <td><input type="checkbox" id="w" /><label for="w"></label></td>
+            <td><input type="checkbox" id="x" /><label for="x"></label></td>
+        </tr>
+    </table>
+
+    <button onclick="saveBoard()">Sauvegarder</button>
+    <button onclick="loadBoardFromClipboard()">Charger depuis le presse-papiers</button>
+    <button onclick="promptLoadBoard()">Charger en écrivant</button>
+    <script src="scripts/ramdom_share.js"></script>
+
+</body>
