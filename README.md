@@ -20,7 +20,7 @@ Installation
 3. Open the HTML file in a modern web browser (such as Chrome, Firefox, or Edge).
 
 Usage  
-• Go on https://themimi974.github.io/
+• Go on https://themimi974.github.io/](https://themimi974.github.io/Mais-c-est-qui-ce-fripon/
 • When the page loads, you’ll see a grid with several checkboxes representing the game board.  
 • Use the “Sauvegarder” button to save the current board state.  
 • Use “Charger depuis le presse-papiers” to load a board state that you’ve previously copied.  
